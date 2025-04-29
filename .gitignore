@@ -1,0 +1,40 @@
+# Godot-specific folders and files
+.import/
+.export/
+export.cfg
+export_presets.cfg
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+
+# Swap/backup files from editors
+*~
+*.swp
+*.bak
+
+# Build outputs
+*.exe
+*.dll
+*.pck
+*.apk
+*.zip
+*.tar.gz
+*.xcodeproj
+*.sln
+*.user
+*.vs
+
+# Godot Mono (C#) specific
+.mono/
+data_*/             # May appear from builds
+mono_crash.*
+
+# Logs (optional)
+logs/
+*.log
